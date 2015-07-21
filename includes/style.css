@@ -1,0 +1,737 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+#wrapper{	
+	position:relative;
+	width:922px;
+	margin:0px auto;
+}
+
+header,main,footer,aside,nav{
+	display:block;
+}
+/*-------------------------All pages-------------------------------------*/
+
+/*h1*/
+h1{
+	font-family: 'Fontdiner Swanky', cursive;
+	position: relative;
+	font-size: 28px;
+	padding-top: 20px;
+	padding-left: 34px;
+	padding-bottom: 20px;
+	color: #545151;
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+}
+
+
+/*--------------------------HEADER---------------------------------------*/
+
+header{
+	height:198px;
+	width:922px;
+	
+}
+
+#logo{
+	background-image: url("../images/logo.png");
+	display: block;
+	width: 114px;
+	height: 102px;
+	position:absolute;
+	top:20px;
+	left:40px;	
+}
+
+/*aside - user login*/
+header>aside{
+	position: relative;
+	top:0px;
+	right: 20px;	
+}
+
+
+#search{
+	position:absolute;
+	height: 20px;
+    width: 120px;
+   	top: 10px;
+   	right: 30px;
+    background-color:white;
+    font-family: 'Indie Flower', cursive;
+    color: #87746a;
+    font-size: 15px;
+}
+
+header>aside>section{
+	height:24px;
+	width:24px;
+	position:absolute;
+	top:70px;
+	right:34px;
+	background-image: url("../images/dollars.png")
+}
+
+#crown{
+	position: absolute;
+	top:10px;
+	right: 50px;	
+}
+
+#user{
+	position: absolute;
+	top:40px;
+	right: 55px;	
+}
+
+header>aside>p{
+	position: absolute;
+	top:80px;
+	right: 68px;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+/*aside nav - social (share)*/
+header>aside>nav>.social{
+	height: 60px;
+	width:170px;
+	position: absolute;
+	top:106px;
+	right: -30px;
+	list-style-type:none;
+}
+
+header>aside>nav>.social>li, #MyTimeline>article>section>nav>.social>li{
+	float:left;
+}
+
+header>aside>nav>.social>li>a, #MyTimeline>article>section>nav>.social>li>a{
+	padding: 9.3px;
+}
+
+/*nav-top menu*/
+.topMenu{
+	height: 40px;
+	width:922px;
+	background-color: #f7f6f6;
+	position: absolute;
+	top:150px;
+	left: 0px;
+	list-style-type:none;
+		
+}
+.sticky {  
+    position: fixed;
+	margin:0px auto;
+    width: 922px;  
+    left: 171px;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+}  
+
+.topMenu>li{
+	padding-top:10px;
+	float: left;
+}
+
+.topMenu>li>a{
+	text-decoration: none;
+	padding: 40px;
+	color:#606060;
+	font-size: 15px;
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
+.topMenu>li>a:hover{
+	color:#75a9f9;	
+}
+
+.topMenu>li.active>a{
+	color: #75a9f9;
+}
+
+.clear{
+	clear:both;
+}
+
+/*--------------------------FOOTER---------------------------------------*/
+#space{
+	height: 40px;
+	width: 922px;
+	background-color: white;	
+}
+
+footer{
+	background-color: #aaaaaa;
+	height: 83px;
+	width: 922px;
+	font-family: 'Indie Flower', cursive;
+}
+
+footer>nav>ul>li{	
+	list-style-type:none;
+	float:left;
+	padding-top: 22px;
+}
+
+footer>nav>ul>li>a
+{
+	text-decoration: none;
+	padding: 40px;
+	color:white;
+	font-size: 20px;
+}
+
+footer>nav>ul>li>a:hover{
+	color:#F8F8F8 ;	
+}
+
+footer>p{
+	position: absolute;
+	bottom:14px;
+	left:40px;
+	font-size: 14px;
+	color: gray;
+}
+
+/*--------------------------------My Timeline-------------------------------------*/
+
+
+/*full article*/
+#MyTimeline>article{
+	height: 197px;
+	width: 922px;
+	background-color: #f7f6f6;
+	font-family: 'Indie Flower', cursive;
+}
+
+/*details on the top of the article*/
+.top{	
+	position:relative;
+	height: 84px;
+	width: 922px;
+	background-color: #ebebeb;
+}
+
+#art1>a{
+	position:absolute;
+	top:400px;
+	left: 40px;
+}
+
+#art2>a{
+	position:absolute;
+	top:640px;
+	left: 40px;
+}
+
+#art3>a{
+	position:absolute;
+	top:880px;
+	left: 40px;
+}
+
+#art4>a{
+	position:absolute;
+	top:1120px;
+	left: 40px;
+}
+.sideImages{
+	position: absolute;
+	top:380px;
+	right: 10px;
+	
+}
+
+.sideImages>h4{
+
+	padding-left: 60px;
+	
+}
+
+#art1>.sideImages{
+
+	top:380px;
+	width: 180px;
+	height: 90px;
+
+}
+
+#art2>.sideImages{
+	top:620px;
+	width: 180px;
+	height: 90px;
+
+}
+#art2>.sideImages>img{
+
+	margin-left: 60px;	
+}
+#art3>.sideImages{
+	top:850px;
+	width: 380px;
+	height: 90px;
+
+}
+#art3>.sideImages>img{
+	margin-left: 20px;	
+
+}
+
+#art4>.sideImages{
+	top:1090px;
+	width: 230px;
+	height: 90px;
+
+}
+
+#art4>.sideImages>h4{
+
+	padding-left: 120px;
+	
+}
+
+.Acrown{	
+	position:absolute;
+	top:-4px;
+	left:32px;
+}
+
+.Auser{
+	position:absolute;
+	top:26px;
+	left:36px;
+}
+
+.A4star{
+	position:absolute;
+	top:60px;
+	left:10px;
+}
+
+.Ascore{
+	position:absolute;
+	top:34px;
+	left:86px;	
+}
+
+.Adollars{
+	position:absolute;
+	top:30px;
+	left:128px;		
+}
+
+.Aclock{	
+	position:absolute;
+	top:34px;
+	left:186px;	
+}
+
+.Adate{	
+	position:absolute;
+	top:34px;
+	left:218px;		
+}
+
+.Ahome{
+	position:absolute;
+	top:34px;
+	left:440px;		
+}
+
+.Aaddress{
+	position:absolute;
+	top:34px;
+	left:472px;		
+}
+
+/*social/share on the top of the article*/
+#MyTimeline>article>section>nav>.social
+{
+	height: 60px;
+	width:170px;
+	position: absolute;
+	top:20px;
+	right: 0px;
+	list-style-type:none;
+}
+
+
+/*-------------------------My Profile-------------------------------------*/
+
+
+#MyProfile>section{	
+	height: 871px;
+	width: 922px;
+	background-color: #f7f6f6;
+	font-family: 'Indie Flower', cursive;
+}
+
+#profileUser{
+	position: absolute;	
+	height: 184px;
+	width: 164px;
+	top:313px;
+	left:43px;
+	border: 1px solid gray;
+}
+
+#profiledetails{
+	position: absolute;
+	top:313px;
+	left: 292px;
+}
+
+#MyProfile>section>p{
+	position: absolute;
+	top:417px;
+	left: 321px;
+}
+
+#add{
+	
+	font-size:12px;
+	color:#606060;
+	position: absolute;
+	top:488px;
+	left: 324px;
+}
+#MyProfile>section>#edit{
+	position: absolute;
+	left:292px;
+	top:419px;
+}
+
+#current{	
+	color:#3d8af7;
+}
+
+#MyProfile>section>aside{
+	position:relative;
+	top:60px;
+	left: 700px;
+	height: 488px;
+	width: 272px;
+	border-left: 1px solid gray;
+}
+
+#MyProfile>section>aside a{
+	padding-left: 20px;
+	position:absolute;
+	left:0px;
+}
+
+
+#MyProfile>section>aside img{
+	padding-left: 128px;
+	padding-bottom: 13px;
+}
+
+#RF{
+	
+	top:10px;	
+}
+
+#SF{
+	
+	top:70px;
+}
+
+#FK{
+	
+	top:130px;
+}
+
+#FH{
+	
+	top:190px;
+}
+
+#Fl{
+
+	top:250px;
+}
+
+#St{
+	
+	top:300px;
+}
+
+#TK{
+	
+	top:340px;
+}
+
+#TP{
+
+	top:380px;
+}
+
+#OP{
+	
+	top:420px;
+}
+
+#HC{
+
+	top:460px;
+}
+
+
+
+
+/*---mood section---*/
+
+ #mood h2{
+ 	position: absolute;
+ 	top:600px;
+ 	left: 260px;	
+ }
+
+ /*----mood menu---*/
+
+#mood nav{
+ 	position: absolute;
+ 	top:670px;
+ 	left:20px;
+ 	height: 140px;
+ 	width:660px;
+ 	list-style-type:none;	
+ }
+
+#mood nav ul li{
+	float: left;
+	list-style-type:none;	
+}
+
+#mood>nav>ul>li>a{
+	text-decoration: none;
+	padding: 5px;
+	color:#606060;
+	font-size: 15px;
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
+#mood>nav>ul>li>a>p{
+	
+	padding-left: 25px;
+	padding-right: 5px;
+}
+ 
+/*-------------------------My Invitations-------------------------------------*/
+
+
+#MyInvitationse>#invitationse{
+	
+	position:relative;	
+	height: 1440px;
+	width;922px;
+	background-color: #f7f6f6;
+	font-family: 'Indie Flower', cursive;
+}
+
+	#MyInvitationse>section{
+	height: 40px;
+	width: 922px;
+	background-color: #ebebeb;
+}
+
+#MyInvitationse>section>h2{
+	
+	color: #606060;
+	font-size: 22px;
+	padding-left: 40px;
+	padding-top: 8px;
+	font-weight: bold;
+}
+
+#MyInvitationse>section>button{
+
+	float:right;
+	margin-right: 20px;
+	margin-top: 5px;
+	width:113px;
+	height: 29px;
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+  	border: 5px solid #0000000;
+  	padding: 5px;
+}
+
+#MyInvitationse #invitationse article{
+
+	height:350px;
+	width:922px;
+	border-bottom: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+#MyInvitationse #invitationse article h3{
+	
+	color: #606060;
+	font-size: 22px;
+	padding-left: 40px;
+	padding-top: 30px;
+	font-weight: bold;	
+}
+
+/*-----form------*/
+#MyInvitationse #invitationse article form{
+	
+	font-size: 18px;
+	padding-left: 40px;
+	padding-top: 20px;	
+}
+
+#textAddress, #time,.datepicker{
+
+	height: 20px;
+	width: 100px;
+	border: 2px solid #c0c0c0;
+}
+
+.comment{
+	height: 20px;
+	width: 150px;
+	border: 2px solid #c0c0c0;
+}
+
+#date{
+
+	margin-right: 32px;
+}
+
+#timeText{
+	
+	margin-right: 33px;
+
+}
+
+#address{
+	
+	margin-right: 29px;
+}
+
+.comments{
+	
+	padding-left: 20px;
+}
+
+
+.arrowDown{
+	
+	margin-left: 40px;
+}	
+	
+	
+	
+	
+/*----photo`s section-----*/
+
+.playerImages{
+	
+	height:240px;
+	width:240px;
+	position: absolute;
+	right: 40px;	
+}
+
+.playerImages img{
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 10px;	
+}
+
+#The_stars_group>section{
+	
+	top:40px;
+}
+
+#The_best_players>section{
+	
+	top:390px;
+}
+
+#Save_The_Date>section{
+	
+	top:750px;
+}
+
+#Tomer_Maayan_Ronny_Natalie>section{
+	
+	top:1100px;
+}
+#The_stars_group>aside{
+	
+	position:absolute;
+	top:10px;
+	right: 10px;
+}
+#The_best_players>aside{
+
+	position:absolute;
+	top:360px;
+	right: 10px;
+}
+
+#Save_The_Date>aside{
+	position:absolute;
+	top:720px;
+	right: 10px;
+}
+
+#Tomer_Maayan_Ronny_Natalie>aside{
+	position:absolute;
+	top:1070px;
+	right: 10px;
+}
+
+.bottomJoin, .join{
+	position:absolute;
+	right: 56px;
+	height: 40px;
+	width: 360px;
+	font-size:18px;
+}
+
+#The_stars_group .join{	
+	top:280px;
+}
+#The_best_players .join{	
+	top:280px;
+}
+#Save_The_Date .join{	
+	top:280px;
+}
+
+.bottomJoin{	
+	position:absolute;
+	top:1350px;
+	right: 56px;
+	font-size:18px;
+}
+
+button{
+  	font-family: 'Indie Flower', cursive;
+  	font-size: 18px;	
+}
+.join button, .bottomJoin button {	
+	margin-right: 16px;
+	float:right;
+	width:64px;
+	height: 33px;
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+  	border: 5px solid #0000000;
+  	padding: 5px; 	
+}
+
+

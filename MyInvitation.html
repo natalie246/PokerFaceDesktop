@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<link rel ="stylesheet" href="includes/style.css">
+		<script src="includes/jquery-1.11.2.min.js"></script>
+		<script src="includes/scripts.js"></script>	
+		<script src="includes/scriptsMyProfile.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+  		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+   		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+ 		<script>
+			  $(function() {
+			    $( ".datepicker" ).datepicker();
+			  });
+  		</script>
+	</head> 
+		
+	<body>		       
+		<div id="wrapper">
+			<header>
+				<a id="logo" href="#"></a>
+				<aside>
+					<article id="crown"><img src="images/little_crown.png"><br></article>
+					<a href="MyProfile.html" id="user"><img src="images/tomer36.png"></a>
+					<p>1400</p> 
+					<section></section>
+					<nav>
+						<ul class="social">
+							<li><a href="#"><img src="images/facebook.png" /></a></li>
+							<li><a href="#"><img src="images/twitter.png" /></a></li>
+							<li><a href="#"><img src="images/g+.png" /></a></li>
+						</ul>
+					</nav>
+				</aside>
+				<nav>
+					<ul class="topMenu">
+						<li><a href="index.php">My Timeline</a></li>
+						<li class="active" ><a href="#">My Invitations</a></li>
+						<li><a href="#">My Gallery</a></li>
+						<li><a href="#">My Friends</a></li>
+						<form><input type="search" id="search" placeholder="search" /></form>		
+					</ul>
+					<div class="clear"></div>				 
+				</nav>	
+			</header>
+						
+			<main id="MyInvitationse">				
+				<h1>My Invitations</h1>
+				<section>
+					<button type="button"><img src="images/plus.png">&nbsp&nbspCreate</button>
+					<h2>Games you were invited to:</h2>
+				</section>
+				<section id="invitationse">
+					<article id="The_stars_group">
+						<h3>~The stars group~</h3>
+						<form>
+						 	<a id="date">Date:</a>
+							<input class="datepicker" name="date" placeholder="28/01/2015"><br>
+							<a id="timeText">Time:</a>
+							<input id="time" name="date" placeholder="20:00"><br>
+							<a id="address">Place:</a> 
+							<input type="text" id="textAddress" name="address" placeholder="Hila's house"><br><br>
+							<img src="images/hila40.png"><a class="comments"> dont be late!</a><br>
+							<img src="images/ronny40.png"><a class="comments">like always :)</a><br>
+							<img class="arrowDown" src="images/arrowDown.png"><br>
+							<input type="text" class="comment" name="comment" placeholder="Add comment...">	
+						</form>
+						<aside>
+							<img src="images/addFriend.png"
+						</aside>
+						<section class="playerImages">
+							<img src="images/hila40R.png">
+							<img src="images/ronny40R.png">
+							<img src="images/reut40.png"
+							<img src="images/tom40.png">
+							<img src="images/mark40R.png">
+							<img src="images/ben40.png">
+							<img src="images/benm40.png">
+							<img src="images/eidan40.png">
+							<img src="images/chen40.png">
+							<img src="images/tom40.png">							
+						</section>
+						<section class="join">
+							<a>Invited by hila</a>
+							<button type="button">Decline</button>
+							<button type="button">Maybe</button>
+							<button type="button">Join</button>
+						</section>
+					</article>
+								
+					<article id="The_best_players">
+						<h3>The best players! </h3>
+						<form>	
+							  <a id="date">Date:</a>
+							  <input class="datepicker" name="date" placeholder="28/01/2015"><br>
+							  <a id="timeText">Time:</a>
+							  <input id="time" name="date" placeholder="20:00"><br>
+							  <a id="address">Place:</a> 
+							  <input type="text" id="textAddress" name="address" placeholder="Hila's house"><br><br>
+							  <img src="images/liana40.png"><a class="comments"> dont be late!</a><br>
+							  <img src="images/nir40.png"><a class="comments">like always :)</a><br>
+							  <img class="arrowDown" src="images/arrowDown.png"><br>
+							  <input type="text" class="comment" name="comment" placeholder="Add comment...">
+						</form>	
+						<aside>
+							<img src="images/addFriend.png"
+						</aside>					
+						<section class="playerImages">
+							<img src="images/keren40R.png">
+							<img src="images/nir40R.png">
+							<img src="images/dani40.png">
+							<img src="images/liana40R.png">
+							<img src="images/mark40.png">						
+						</section>
+							<section class="join">
+							<a>Invited by hila</a>
+							<button type="button">Decline</button>
+							<button type="button">Maybe</button>
+							<button type="button">Join</button>
+						</section>
+					</article>
+								
+					<article id="Save_The_Date">
+						<h3>Save#The#Date</h3>
+						<form>							
+							  <a id="date">Date:</a>
+							  <input class="datepicker" name="date" placeholder="28/01/2015"><br>
+							  <a id="timeText">Time:</a>
+							  <input id="time" name="date" placeholder="20:00"><br>
+							  <a id="address">Place:</a> 
+							  <input type="text" id="textAddress" name="address" placeholder="Hila's house"><br><br>
+							  <img src="images/rotem40.png"><a class="comments"> dont be late!</a><br>
+							  <img class="arrowDown" src="images/arrowDown.png"><br><br><br>
+							  <input type="text" class="comment" name="comment" placeholder="Add comment...">							
+						</form>
+						<aside>
+							<img src="images/addFriend.png"
+						</aside>						
+						<section class="playerImages">
+							<img src="images/ronny40N.png">
+							<img src="images/hila40R.png">
+							<img src="images/eidan40.png">
+							<img src="images/chen40.png">
+							<img src="images/mark40.png">
+							<img src="images/reut40.png">
+							<img src="images/rotem40R.png">
+							<img src="images/dudi40.png">
+						</section>
+							<section class="join">
+							<a>Invited by hila</a>
+							<button type="button">Decline</button>
+							<button type="button">Maybe</button>
+							<button type="button">Join</button>
+						</section>
+					</article>
+
+					<article id="Tomer_Maayan_Ronny_Natalie">
+						<h3>Tomer&Maayan&Ronny&Natalie </h3>
+						<form>	
+							  <a id="date">Date:</a>
+							  <input class="datepicker" name="date" placeholder="28/01/2015"><br>
+							  <a id="timeText">Time:</a>
+							  <input id="time" name="date" placeholder="20:00"><br>
+							  <a id="address">Place:</a> 
+							  <input type="text" id="textAddress" name="address" placeholder="Hila's house"><br><br>
+							  <img src="images/natalie40.png"><a class="comments"> Save the date!</a><br>
+							  <img src="images/maayan40.png"><a class="comments">Save the date!</a><br>
+							  <img class="arrowDown" src="images/arrowDown.png"><br>
+							  <input type="text" class="comment" name="comment" placeholder="Add comment...">		
+						</form>
+						<aside>
+							<img src="images/addFriend.png"
+						</aside>
+						<section class="playerImages">
+							<img src="images/natalie40R.png">
+							<img src="images/maayan40R.png">
+							<img src="images/ronny40N.png">
+						</section>
+					</article>
+						<section class="bottomJoin">
+							<a>Invited by hila</a>
+							<button type="button">Decline</button>
+							<button type="button">Maybe</button>
+							<button type="button">Join</button>
+						</section>
+				</section>
+			</main>
+			<footer>
+				<nav>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Information</a></li>
+						<li><a href="#">Search Terms</a></li>
+					</ul>		
+				</nav>
+				<p>@2015 PokerFace. All rights reserved</p>	
+			</footer>
+		</div>
+	</body> 
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
